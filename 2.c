@@ -7,7 +7,7 @@ int main()
     a = get_int ("A: ");
     b = get_int ("B: ");
     
-    for (int i = a; i < b; i++)
+    for (int i = a; i <= b; i++)
     {
         dob *= i;
     }
